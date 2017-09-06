@@ -24,11 +24,11 @@ header img{
 
 header h1{
 	display: inline-block;
-	margin-left:150px;
+	margin-left:600px;
 	margin-top:70px;
 	position:absolute;
-	color:#800000;
-	font-size: 4em;
+	color:#ffffff;
+	font-size: 3em;
   /*font-family: 'Covered By Your Grace', text-shadow:2px 4px #5eaf70;*/
   font-family: 'Lobster', cursive;
 
@@ -58,22 +58,22 @@ nav ul >li{
 	border: 1px solid #3F51B5;
 	text-align: center;
 	padding-top:5px;
-	background: E8EAF6;
+	background: #E8EAF6;
 	font-size: 1em;
 	font-family: 'chewy',cursive;
-	color: #303F9F;
+	color: #FF4500;
 	text-shadow: 2px 4px 4px #E8EAF6;
 	transition-property: background. color;
 	transition-duration: 2s,2s;
 
 }
 nav ul >li:hover{
-	background: #303F9F;
+	background: #7FFFD4;
 	letter-spacing: 2px;
 }
 nav >ul >li a{
 	text-decoration: none;;
-	color: #1A237E
+	color: #FF4500
 }
 nav ul li ul{
 	position: absolute;
@@ -94,11 +94,11 @@ nav ul li:hover ul{
 
 }
 #contenido h2{
-	color: #303F9F;
+	color: #008000;
 	font-size: 2em;
 	font-family: 'Covered By Your Grace', cursive;
 	text-align: center;
-	text-shadow: 2px 4px 4px #9FA8DA;
+	text-shadow: 2px 4px 4px #008000;
 
 }
 #contenido p{
