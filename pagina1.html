@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="estilo.css">
+<title>FUTBOL</title>
+
+</head>
+<body>
+<header>
+<img src="imag.jpg" title="logo">
+<h1>FUTBOL INTERNACIONAL</h1>
+</header>
+<nav>
+<ul>
+<li><a href="pagina1.html#">INICIO</a></li>
+<li><a href="about.html#">About</a></li>
+<li><a href="blog.html#">Blog</a></li>
+<li><a href="multimedia.html#">Multimedia</a></li>
+<li><a href="redessociales.html#">Redes Sociales</a>
+	<ul>
+		<li>Facebook</li>
+		<li>Twitter</li>
+	</ul>
+</li>
+</ul>
+</nav>
+<div id="contenido">
+	<h2>Bienvenido a la liga de futbol MX</h2>
+	<p>Para ser el mejor futbolista el talento dependera de la inspiración, pero el esfuerzo depende de cada uno.</p>
+	<p>Disfruta del deporte mas maravilloso del mundo y has de ti un gran futbolista</p>
+<hr>
+<section>
+<fieldset>
+<legend>Registro de futbolistas</legend>
+<form method ="post" action="guardar.php">
+	<label>Nombre: &nbsp</label>
+	<input type="text" name="Nombre" required placeholder="nombre completo">
+	<br>
+	<br>
+	<label>Equipo &nbsp</label>
+	<input type="text" name="nombre" required placeholder="Nombre del equipo">
+	<br>
+	<br>
+	<label>Comentarios: &nbsp</label>
+	<textarea></textarea>
+	<br>
+	<br>
+	<input id="enviar" type="submit" value="enviar">
+	<input id="cancelar" type="reset" value="cancelar">
+
+</form>
+</fieldset>
+</section>
+<section id="sitio">
+	<article class="sitios">
+		<h2>Aprende las reglas del futbol y registrate</h2>
+		<p>Inicio del partido. Si antes al pitazo inicial el balón debía ir hacia adelante, ahora se podrá mover en cualquier dirección.</p>
+
+	</article>
+<article class="sitios">
+	<h2>Crea tu propio equipo</h2>
+	<img src="portada.png">
+
+</article class="sitios">
+<h2>Elige el color de tu camiseta</h2>
+<fieldset>
+	<legend>Colores</legend>
+	<form>
+		<label>Colores disponibles</label>
+		<input type="color">
+		<br>
+		<input type="submit" value="buscar color">
+
+	</form>
+</fieldset>
+</article>
+</section>
+</div>
+<footer>
+	<p>Todos los derechos reservados por la copa MX</p>
+</footer>
+</body>
+</html>
