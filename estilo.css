@@ -107,14 +107,14 @@ nav ul li:hover ul{
 	text-align: justify;
 	font-weight: bold;
 }
-hr{
+hr{//color de la franja de arriba de registro de futbolistas
 	width: 900px;
 	height: 10px;
-	background: #b71clc;
+	background: #008080;
 	border-radius: 5px;
 }
 section{
-	width: 960px;
+	width: 1200px;
 	height: auto;
 	background: #E0FFFF;//COLOR DE CUADRO DE REGISTRO DE FUTBOLISTAS
 	margin-top: 5px;
@@ -122,8 +122,8 @@ section{
 }
 fieldset{
 	margin: 10px auto 10px;
-	height: auto;
-	width: 400px;
+	height: 400px;
+	width: 800px;
 	border:4px double #303F9F;
 	border-radius: 5px;
 }
@@ -141,9 +141,9 @@ form label{
 	color:#008080;
 	padding-right: 2px;
 }
-form input{
-	width: 200px;
-	height: 30px;
+form input{//tamaño de las cajas de nombre y nombre de equipo
+		width: 200px;
+	height: 20px;
 	padding-left: 10px;
 	font-family: 'Abel', sans-serif;
 	font-size: 1em;
@@ -155,15 +155,15 @@ form input{
 
 }
 form textarea{
-	width: 370px;
-	height: 150px;
+	width: 900px;
+	height: 80px;
 	margin-left: 20px;
 	font-family: 'Abel', sans-serif;
 	font-size: 1em;
 	font-weight: bold;
-	color:#00FA9A;
+	color:#000000;
 	border-radius: 4px;
-	border: 2px solid #00FA9A;
+	border: 2px solid #2F4F4F;
 
 }
 
@@ -195,30 +195,30 @@ form textarea{
 	background: #E0FFFF;//COLOR DE CUADRO DE TEXTOS
 
 }
-.sitios{
+.sitios{//letras verde grandes
 	display: inline-block;
-	width: 250px;
-	height: 500px;
-	margin-left: 20px;
-	margin-right: 10px;
+	width: 290px;
+	height: 720px;//alto de los cuadros de reglas
+	margin-left: 0px;
+	margin-right: 20px;
 }
-.sitios img{
-	width: 140px;
-	height: 140px;
+.sitios img{//tamaño de la imagen
+	width: 600px;
+	height: 600px;
 	position: absolute;
-	margin-left: 90px;
+	margin-left: 0px;
 }
-.sitios img:hover{
-	width: 170px;
-	height: 170px;
-	margin-left: 70px;	
+.sitios img:hover{//cresimiento de la imagen
+	width: 600px;
+	height: 645px;
+	margin-left: 0px;	
 }
-.sitios p{
+.sitios p{/textos de sitios
 	font-family: arial;
 	font-size: 13px;
 	font-weight: none;
-	width: 230px;
-	height: 350px;
+	width: 1100px;
+	height: 200px;
 	margin-left: 10px;
 	position: absolute;
 }
@@ -234,15 +234,16 @@ form textarea{
 	background: #fff;
 
 }
-article{
+article{//tamano de los cuadros de las reglas
+
 	margin:10px auto 10px;
 	height: auto;
-	width: 95%;
+	width: 300px;
 	border: 4px double #303F9F;
 	border-radius: 5px;
 	text-align: justify;
-	padding-left: 10px;
-	padding-right: 5px;
+	padding-left: 50px;
+	padding-right: 850px;
 }
 #redes{
 	margin: 10px auto 10px;
@@ -279,15 +280,16 @@ article{
 	height: auto;
 	display: block;
 }
-footer{
+footer{//cuadro de derechos
 	width: 85%;
 	height: 50px;
 	color: #fff;
 	padding-top: 5px;
-	background: #000;
+	font-family: 'Lobster', cursive;
+	background: #800000;
 	margin: 0px auto 5px;
 	text-align: center;
-	font-size: 1em;
+	font-size: 1.5em;
 
 }
 
